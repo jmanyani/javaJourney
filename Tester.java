@@ -1,3 +1,24 @@
+/*Problem Statement: Analyzing the Distribution of Even and Odd Numbers in Test Cases
+Objective:
+Write a Java program that reads multiple test cases, where each test case contains a varying number of integer values. The program should analyze each test case to determine and print the count of even and odd numbers.
+
+Requirements:
+
+Input:
+
+The number of test cases (rows).
+For each test case, the number of values (columns).
+The integer values for each test case.
+Processing:
+
+Store the input values in a 2D array where each row represents a test case and each column represents the values of that test case.
+For each test case, calculate the number of even and odd numbers.
+Output:
+
+Print the values of each test case.
+Print the count of even numbers for each test case.
+Print the count of odd numbers for each test case.
+ */
 import java.util.Scanner;
 
 class Tester{
